@@ -7,6 +7,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_executable(${PROJECT_NAME}
     main.cpp
     src/common/utils.cpp
+    src/tests/stack_test.cpp
     src/tests/print_test.cpp
     src/tests/main_test.cpp
 )
